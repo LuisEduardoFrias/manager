@@ -2,6 +2,30 @@
 
 # Prueba Técnica Back-End
 
+### Endpoints
+
+```js
+post: '/auth/login' //login
+post: '/auth/register' //register
+
+get: '/line/:id'
+get: '/line/total/:id' //totalCalculation
+post: '/line/:id' //create line in movements
+put: '/line/:id'
+delete: '/line/:ids'
+
+get: '/movement/:id'
+get: '/movement/total/:id' //totalCalculation)
+post: '/movement/:id' //create movement in projects
+delete: '/movement/:ids'
+
+get: '/project/'
+get: '/project/total/:id' //totalCalculation
+get: '/project/:name', //search
+post: '/project/'
+delete: '/project/:ids'
+```
+
 ## Objetivo
 
 Desarrollar una api con express y mongoose que permita realizar las siguientes tareas:
